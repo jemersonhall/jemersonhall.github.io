@@ -1,9 +1,27 @@
 body {
   font-family: 'helvetica neue', arial, sans-serif;
   font-weight: 300;
-  background: url(linedpaper.png) repeat;
+  background-image: url(http://7-themes.com/data_images/out/70/7010290-mountain-ropeway-ski-resort.jpg);
+  background-position: top center;
+  border-style: ridge;
 }
 #wrapper {
   width: 960px;
   margin: 20px auto;
+}
+/*Making the h1 red*/
+h1, h2, h3 {
+	color: black;
+}
+h4 {
+	color: black;
+}
+.unicorn {
+	color: green;
+}
+#header {
+	font-style: italic;
+}
+img {
+	width: 250px;
 }

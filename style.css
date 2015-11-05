@@ -1,27 +1,32 @@
 body {
   font-family: 'helvetica neue', arial, sans-serif;
   font-weight: 300;
-  background-image: url(http://7-themes.com/data_images/out/70/7010290-mountain-ropeway-ski-resort.jpg);
-  background-position: top center;
-  border-style: ridge;
+  background-image: url(http://www.designbolts.com/wp-content/uploads/2012/12/Simple-Horizontal-Seamless-Pattern-For-Website-Background.jpg);
+  border-style: double dashed double dashed;
+  background-size: 1000px 80 auto;
 }
 #wrapper {
   width: 960px;
   margin: 20px auto;
 }
-/*Making the h1 red*/
-h1, h2, h3 {
-	color: black;
+h1 {
+	font-style: italic; text-shadow: 2px 2px #b8b8b8; color: black; font-weight: 700; font-family: "Calibri";
 }
-h4 {
-	color: black;
+h2 {
+	color: #0000CC; 
 }
-.unicorn {
-	color: green;
+h3 {
+	color: #0033CC	
 }
-#header {
-	font-style: italic;
+#indent {
+	text-indent: 10px;
 }
 img {
-	width: 250px;
+	width: 300px;
+}
+#underline {
+	text-decoration: underline;
+}
+#caps {
+	text-transform: uppercase;
 }

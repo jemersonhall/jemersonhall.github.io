@@ -4,26 +4,161 @@
   <title>Justin Hall, Kellogg Student</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <div id="wrapper">
-    <h1>Justin Hall's Web Design Page</h1>
-    <p>
-      <img src="https://media.licdn.com/media/AAEAAQAAAAAAAASGAAAAJGU3YzBkNTg1LWIyZDUtNGVhYS04YThmLWY4YTFhMGIyODVlOA.jpg">
-    </p>
-    <h2>Kellogg MBA, Prospective Googler</h2>
+    <div class="container">
+      <nav class="navbar navbar-inverse" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Justin's Page!</a>
+        </div>
 
-    <h3>Evanston, IL</h3>
-    <div>
-      <h4 id="underline">Here's What I'm About</h4>
-      <ul>
-        <li><a href="https://www.google.com/work/android/">My Summer Internship Team @ Google</a></li>
-        <li><a href="http://www.kellogg.northwestern.edu">My Beloved B School: Kellogg</a></li>
-        <li><a href="http://www.linkedin.com/in/justinemersonhall">My LinkedIn</a></li>
-        <li><a href="http://www.espn.com">Where I Spend Way Too Much Time (ESPN.com)</a></li>
-      </ul>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="index.html">
+                <i class="text-muted"></i>
+                About Me
+              </a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                <i class="fa fa-film"></i>
+               Places I've Lived
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Scottsdale, AZ</a></li>
+                <li><a href="#">Cambridge, MA</a></li>
+                <li><a href="#">Seville, Spain</a></li>
+                <li><a href="#">Beijing, China</a></li>
+                <li><a href="#">Boston, MA</a></li>
+                <li><a href="#">Evanston, IL</a></li>
+                <li><a href="#">San Francisco, CA</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                <i class="fa fa-film"></i>
+               My Schools
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Chaparral High School</a></li>
+                <li><a href="#">Harvard Univeristy</a></li>
+                <li><a href="#">Kellogg School of Management</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                <i class="fa fa-film"></i>
+               My Employers
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Dreamspan Product Innovation</a></li>
+                <li><a href="#">Qooco</a></li>
+                <li><a href="#">Alliance Consulting Group</a></li>
+                <li><a href="#">Google, Inc.</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#">
+                <i class="fa fa-user"></i>
+                My Wedding Website
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-user"></i>
+                My GitHub Account
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
+
+
+
+    <div class="container">
+
+        <h3>First off, Let's Start With The Fun Stuff.  Shall We?</h3>
+
+      <div class="row">
+        <div class="col-sm-4 text-left">
+          <h4 id="underline">What Am I Doing Online These Days?</h4>
+                <ul>
+                    <li><a href="http://www.wsj.com">The Wall Street Journal</a></li>
+                    <li><a href="https://www.facebook.com">Facebook</a></li>
+                    <li><a href="https://www.google.com/work/android/">My Summer Internship Team @ Google</a></li>
+                    <li><a href="http://www.kellogg.northwestern.edu">My Beloved B School: Kellogg</a></li>
+                    <li><a href="http://www.linkedin.com/in/justinemersonhall">My LinkedIn</a></li>
+                    <li><a href="http://www.cnn.com">CNN</a></li>
+                    <li><a href="http://www.weather.com">Weather</a></li>
+                    <li><a href="http://techcrunch.com/">Tech Trends</a></li>
+                    <li><a href="http://www.theonion.com">Comedy</a></li>
+                    <li><a href="http://www.youtube.com">More YouTube</a></li>
+                </ul>
+        </div>
+        <div class="col-sm-4 summary">
+          <h4 id="underline">My YouTube Video Of The Week:</h4>
+          <p>
+          Sam Smith: From The New Bond Movie!
+          </p>
+          <iframe width="450" height="225" src="https://www.youtube.com/embed/8jzDnsjYv9A" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="col-sm-4 text-right">
+          <h4 id="underline">Feeling Lucky? Gamble With Me!</h4>
+              <p>
+                <a class="btn btn-success" href="http://golearntocode.com/">Wager $5 to win $10</a>
+              </p>
+              <p>
+                <a class="btn btn-warning" href="http://golearntocode.com/">Wager $20 to win $80</a>
+              </p>
+              <p>
+                <a class="btn btn-danger" href="http://golearntocode.com/">Wager $100 to win $1K!</a>
+              </p>
+        </div>
+      </div>
+      <h3 class="top-margin">Now, Some Pictures of the Author</h3>
+      <div class="row">
+        <div class="col-sm-4 actors">
+          <h4 id="underline">LinkedIn Picture</h4> 
+              <p>
+              <img src="https://media.licdn.com/media/AAEAAQAAAAAAAASGAAAAJGU3YzBkNTg1LWIyZDUtNGVhYS04YThmLWY4YTFhMGIyODVlOA.jpg">
+              </p>
+        </div>
+        <div class="col-sm-4 actors">
+          <h4 id="underline">Having Fun Traveling</h4>
+              <p>
+              <img src="https://scontent-ord1-1.xx.fbcdn.net/hphotos-xft1/v/t1.0-9/12033012_10102414943934791_7350127509892395608_n.jpg?oh=574908127c949b1dffd6200425846a37&oe=56BE4B23">
+              </p>
+        </div>
+        <div class="col-sm-4 actors">
+          <h4 id="underline">With My Fiance</h4>
+              <p>
+              <img src="https://scontent-ord1-1.xx.fbcdn.net/hphotos-xlp1/v/t1.0-9/10917455_10102770651279580_5868271277116653479_n.jpg?oh=7f148b30f1239d69bf5386bd9b6fbc19&oe=56F69C37">
+              </p>
+        </div>
+      </div>
+
+    <h3 class="top-margin">Lastly, A Brief Snipet Of My Resume and Story</h3>
+    <div class="row">
+      <div class="col-sm-12 actors">
+
       <h4 id="underline">Summary</h4>
       <p>
         Born and raised in Scottsdale, AZ.  I went to Harvard University for undergrad where I studied Pscyhology. After Harvard, I spent the next four years at a boutique strategy consulting firm in Boston called Alliance Consulting Group.  I had a fantastic experience and was able to gain valuable experience with clients ranging from Fortune 500 staples (i.e., Coca-Cola and Harley-Davidson) to private equity firms making acquisitions of small to mid sized firms.
@@ -47,8 +182,28 @@
         <li>Avid traveler that is always looking for the next adventure (36 countries and counting)</li>
         <li>Completely irrational fan of the Arizona Cardinals, Phoenix Suns, and Univ. of Arizona Men's Basketball team</li>
         <li>Hobbies include cooking, snowboarding, playing basketball, collecting street art, and scouring Yelp for new dining experiences</li>
-      </ul>  
+      </ul> 
+      </div>
     </div>
+            <div class="row">
+        <div class="col-md-12">
+          <h3 class="top-margin">If You Need To Contact Me</h3>
+          <table class="table table-striped table-bordered">
+            <tr>
+              <td><strong>Phone</strong></td>
+              <td>XYZ-326-9615</td>
+            </tr>
+            <tr>
+              <td><strong>Email</strong></td>
+              <td>jhall2016@kellogg.northwestern.edu</td>
+            </tr>
+            <tr>
+              <td><strong>Address</strong></td>
+              <td>1600 Hinman Ave. Evanston, IL</td>
+            </tr>
+          </table>
+        </div>
+      </div> 
   </div>
 </body>
 </html>

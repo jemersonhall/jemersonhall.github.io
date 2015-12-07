@@ -23,6 +23,9 @@ h3 {
 img {
 	width: 175px; text-indent: 10px; 
 }
+#bigpic {
+  width: 250px;
+}
 #underline {
 	text-decoration: underline;
 }
